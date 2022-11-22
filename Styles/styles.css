@@ -44,7 +44,8 @@ margin-top: 10px;
 margin-left: 10px;
 margin-bottom: 10px;
 transition-duration: 2ms;
-height: 130px;
+
+
 }
 
 header img:hover {
@@ -230,14 +231,14 @@ header-imag{
 
 @media screen and (max-widht: 420px) {
     .navbar__list{
-        display: flex;
-        justify-content: space-around ;
         font-size: xx-small;
     
     }
+
     h3{
         font-size: xx-small;
     }
+
 
     
 }
