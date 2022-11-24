@@ -1,0 +1,31 @@
+{
+  "name": "runas",
+  "version": "1.0.0",
+  "description": "Pre-entrega3-Berardone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path  scss sass/origen.scss Styles/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gianaza/Lectura-de-Runa.git"
+  },
+  "keywords": [
+    "runas",
+    "consulta",
+    "guias",
+    "maestros."
+  ],
+  "author": "Berardone Fabiana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gianaza/Lectura-de-Runa/issues"
+  },
+  "homepage": "https://github.com/Gianaza/Lectura-de-Runa#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
