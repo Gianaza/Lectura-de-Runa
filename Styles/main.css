@@ -168,7 +168,7 @@ footer {
 .mail {
   font-weight: bolder; }
 
-@media only screen and (max-width: 524px) {
+@media only screen and (max-width: 724px) {
   h1 {
     font-size: 30px; }
   h2 {
