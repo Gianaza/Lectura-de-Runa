@@ -58,7 +58,7 @@ nav {
 
 .navbar__list {
   display: flex;
-  justify-content:center;
+  justify-content: flex-start;
   align-items: none; }
 
 .navbar__item {
@@ -187,4 +187,12 @@ footer {
   .navbar__item {
     font-size: xx-small; }
   h3 {
-    font-size: xx-small; } }
+    font-size: xx-small; } 
+  header img{
+    transition: 0ms;
+  }
+  
+  }
+  
+
+    
