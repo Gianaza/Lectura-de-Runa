@@ -58,7 +58,7 @@ nav {
 
 .navbar__list {
   display: flex;
-  justify-content: space-around;
+  justify-content:center;
   align-items: none; }
 
 .navbar__item {
@@ -68,7 +68,8 @@ nav {
 .navlink {
   color: white;
   display: inline-block;
-  padding: 20px; }
+  padding: 10px;
+}
   .navlink:hover {
     background-color: aquamarine; }
 
@@ -183,7 +184,7 @@ footer {
     font-size: small; } }
 
 @media screen and (max-widht: 420px) {
-  .navbar__list {
+  .navbar__item {
     font-size: xx-small; }
   h3 {
     font-size: xx-small; } }
