@@ -204,6 +204,12 @@ footer {
 	.textoRunas {
 		font-size: small;
 	}
+	header img{
+		display:none
+
+	}
+	
+	
 }
 @media screen and (max-widht: 420px) {
 	.navbar__list {
@@ -212,6 +218,7 @@ footer {
 	h3 {
 		font-size: xx-small;
 	}
+
 }
 
 	
