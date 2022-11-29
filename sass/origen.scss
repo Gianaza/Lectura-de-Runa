@@ -178,11 +178,13 @@ footer {
 	text-align: center;
 	color: rgb(29, 29, 25);
 	font-weight: 400;
-	font-size: medium;
+	font-size: small;
 	padding: 3rem;
 }
 .mail {
 	font-weight: bolder;
+	font-size: x-small;
+	padding-bottom: 10px;
 }
 @media only screen and (max-width: 524px) {
 	h1 {
@@ -190,6 +192,9 @@ footer {
 	}
 	h2 {
 		font-size: 20px;
+	}
+	h4{
+		font-size: small;
 	}
 	p {
 		font-size: 8px;
@@ -216,6 +221,9 @@ footer {
 		font-size: xx-small;
 	}
 	h3 {
+		font-size: xx-small;
+	}
+	h4{
 		font-size: xx-small;
 	}
 
