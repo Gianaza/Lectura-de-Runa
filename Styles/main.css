@@ -33,6 +33,7 @@ header {
   background-image: linear-gradient(to bottom, #ac40ac, violet, #fcf5fc);
   margin: 5px;
   width: 100%; }
+
   header img {
     border-color: #361a1a;
     border-style: solid;
@@ -138,7 +139,7 @@ p {
   padding: 16px;
   border-radius: 10px;
   margin:auto;
-  margin-top: 50px;
+  margin-top: 40px;
   background-color: #b99cd4; }
 
 legend {
@@ -179,15 +180,20 @@ footer {
 @media only screen and (max-width: 524px) {
   h1 {
     font-size: 30px; }
+
   h2 {
     font-size: 20px; }
+
   h4 {
     font-size: small; }
+
   p {
     font-size: 8px; }
+
   header-imag {
     width: 50px;
     height: auto; }
+
   .navbar__item {
     font-size: x-small; }
   .textoRunas, .info {
