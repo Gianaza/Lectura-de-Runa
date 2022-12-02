@@ -21,7 +21,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 23% 10% 46% 21%;
+  grid-template-rows: 22% 10% 47% 21%;
   grid-template-areas: "header header" "nav nav" "main main" "footer footer";
 }
 
@@ -84,9 +84,9 @@ nav {
 }
 
 .navlink {
-  color: rgb(83, 78, 78);
+  color: rgb(146, 134, 134);
   display: inline-block;
-  padding: 10px;
+  padding: 20px;
 }
 .navlink:hover {
   background-color: aquamarine;
@@ -231,7 +231,6 @@ footer {
     font-size: small;
   }
 
- 
 }
 
 @media screen and (max-widht: 420px) {
@@ -244,7 +243,6 @@ footer {
   h4 {
     font-size: xx-small;
   }
-
 }
 
 .btn-Facebook {
