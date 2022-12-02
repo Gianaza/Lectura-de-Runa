@@ -6,6 +6,18 @@
 
 @import "./Utilities/global";
 
+@each $redsocial, $colorRedsocial in $redes {
+    .btn-#{
+        $redsocial
+    }{
+        border-radius: 5px;
+        width: 200px;
+        height: 40px;
+        background-color: $colorRedsocial;
+    }
+    
+}
+
 
 
 
