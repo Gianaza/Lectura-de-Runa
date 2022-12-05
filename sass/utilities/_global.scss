@@ -220,4 +220,16 @@ footer {
 
 }
 
+@each $redsocial, $colorRedsocial in $redes {
+    .btn-#{
+        $redsocial
+    }{
+        border-radius: 5px;
+        width: 60px;
+        height: 20px;
+        background-color: $colorRedsocial;
+    }
+    
+}
+
 	
